@@ -1,0 +1,27 @@
+.footer {
+    background-color: #07061a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-icons {
+    margin-top: 10px;
+  }
+  
+  .contact-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 22px;
+    transition: color 0.3s;
+  }
+  
+  .contact-icons a:hover {
+    color: #4d7dff;
+  }
+  
+  .icon {
+    vertical-align: middle;
+  }
+  

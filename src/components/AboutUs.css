@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+.aboutus {
+  padding: 20px;
+  background-color: #264461;
+  color: white;
+}
+
+.aboutus h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Lobster', cursive; 
+}
+
+.aboutus ul {
+  list-style: none;
+  padding: 0;
+}
+
+.aboutus li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Layout flexbox */
+.aboutus-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Poppins', cursive; 
+}
+
+.aboutus-text {
+  flex: 1;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.aboutus-images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 600px;
+}
+
+.aboutus-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutus-images button {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.aboutus-images button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.aboutus-images button:first-of-type {
+  left: 10px; /* Botão esquerdo */
+}
+
+.aboutus-images button:last-of-type {
+  right: 10px; /* Botão direito */
+}
+
+

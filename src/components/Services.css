@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  background-color: #ffffff; /* Cor de fundo da página toda */
+}
+
+.services {
+  padding: 20px;
+  background-color: #ffffff;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.services h2 {
+  font-size: 45px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Lobster', cursive; 
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding: 12px 20px;
+  border: 2px solid #204c75;
+  border-radius: 6px;
+  background-color: #e0effc;
+  font-family: 'Poppins', cursive; 
+}
+
+.service-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.service-price {
+  color: #2e476d;
+  font-weight: bold;
+}

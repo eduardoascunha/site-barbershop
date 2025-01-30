@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.hero {
+  background-color: #213553;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Poppins', cursive; 
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: 'Poppins', cursive; 
+}
+
+/* Estilizando o botão */
+.hero-button {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.hero-button button {
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #ff9900, #ff6600);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 15px rgba(255, 153, 0, 0.3);
+}
+
+/* Efeito ao passar o mouse */
+.hero-button button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0px 5px 5px rgba(255, 153, 0, 0.5);
+}
+
+/* Efeito ao clicar */
+.hero-button button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 4px 10px rgba(255, 153, 0, 0.3);
+}
