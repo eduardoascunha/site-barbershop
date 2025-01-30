@@ -1,11 +1,63 @@
-.agenda {
-    padding: 50px;
-    background-color: #f0f0f0;
-    margin-top: 20px;
-  }
-  
-  .agenda h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-  
+/* Estilos para a seção Agenda */
+.agenda-container {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.agenda-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.agenda-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.agenda-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.agenda-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.agenda-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.agenda-icon {
+  color: #007bff;
+}
+
+.agenda-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.agenda-value {
+  color: #777;
+}
+
+.agenda-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.agenda-link:hover {
+  text-decoration: underline;
+}

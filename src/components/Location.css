@@ -28,7 +28,7 @@
     margin-right: 20px;
     text-align: left;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Poppins', cursive; 
   }
 
@@ -38,7 +38,7 @@
 }
 
   .location-text li {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px; /* Adiciona um espaço entre os itens */
   }
 
