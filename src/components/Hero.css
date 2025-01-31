@@ -19,35 +19,3 @@
   margin-bottom: 15px;
   font-family: 'Poppins', cursive; 
 }
-
-/* Estilizando o botão */
-.hero-button {
-  display: inline-block;
-  margin-top: 20px;
-  text-decoration: none;
-}
-
-.hero-button button {
-  padding: 12px 25px;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  background: linear-gradient(135deg, #ff9900, #ff6600);
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0px 5px 15px rgba(255, 153, 0, 0.3);
-}
-
-/* Efeito ao passar o mouse */
-.hero-button button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0px 5px 5px rgba(255, 153, 0, 0.5);
-}
-
-/* Efeito ao clicar */
-.hero-button button:active {
-  transform: scale(0.95);
-  box-shadow: 0px 4px 10px rgba(255, 153, 0, 0.3);
-}
